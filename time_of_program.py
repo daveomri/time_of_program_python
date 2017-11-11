@@ -1,3 +1,5 @@
+# David Omrai
+# It is just simply timer, but it could help someone
 import tkinter
 from tkinter import *
 
@@ -30,6 +32,6 @@ def yup():
     if m2 > 5:m2 = 0;h1 += 1
     if h1 > 9:h1 = 0;h2 += 1
     cas.config(text=str(h2)+str(h1) + ":" + str(m2)+str(m1) + ":" + str(s2)+str(s1))
-    cas.after(1000, yup) # zde jsem ve škole měl chybu, místo "yup" jsem napsal "yup()", tím skočil program na chybové hlášení
+    cas.after(1000, yup)
 yup()
 master.mainloop()
