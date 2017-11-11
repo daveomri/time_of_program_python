@@ -1,5 +1,5 @@
 # David Omrai
-# It is just simply timer, but it could help someone
+# It is just a simply timer, but it could help someone
 import tkinter
 from tkinter import *
 
